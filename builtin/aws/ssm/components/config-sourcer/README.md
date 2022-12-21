@@ -1,6 +1,9 @@
-# /aws/ssm/components/config-sourcera## aws-ssm (configsourcer)
+<!-- This file was generated via `make gen/integrations-hcl` -->
+## aws-ssm (configsourcer)
 
 Read configuration values from AWS SSM Parameter Store.
+
+### Interface
 
 ### Examples
 
@@ -8,8 +11,9 @@ Read configuration values from AWS SSM Parameter Store.
 config {
   env = {
     PORT = dynamic("aws-ssm", {
-      path = "port"
-    })
+	  path = "port"
+	})
   }
 }
 ```
+

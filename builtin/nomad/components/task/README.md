@@ -1,3 +1,4 @@
+<!-- This file was generated via `make gen/integrations-hcl` -->
 ## nomad (task)
 
 Launch a Nomad job for on-demand tasks from the Waypoint server.
@@ -14,3 +15,4 @@ task {
 	use "nomad" {}
 }
 ```
+

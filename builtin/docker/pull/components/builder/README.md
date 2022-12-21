@@ -1,3 +1,4 @@
+<!-- This file was generated via `make gen/integrations-hcl` -->
 ## docker-pull (builder)
 
 Use an existing, pre-built Docker image.
@@ -32,3 +33,4 @@ build {
   }
 }
 ```
+

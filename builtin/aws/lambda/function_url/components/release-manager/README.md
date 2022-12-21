@@ -1,3 +1,4 @@
+<!-- This file was generated via `make gen/integrations-hcl` -->
 ## lambda-function-url (releasemanager)
 
 Create an AWS Lambda function URL.
@@ -16,3 +17,4 @@ release {
 	}
 }
 ```
+

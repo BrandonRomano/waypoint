@@ -1,3 +1,4 @@
+<!-- This file was generated via `make gen/integrations-hcl` -->
 ## pack (builder)
 
 Create a Docker image using CloudNative Buildpacks.
@@ -26,3 +27,4 @@ build {
 
 - Input: **pack.Image**
 - Output: **docker.Image**
+

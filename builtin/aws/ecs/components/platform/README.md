@@ -1,3 +1,4 @@
+<!-- This file was generated via `make gen/integrations-hcl` -->
 ## aws-ecs (platform)
 
 Deploy the application into an ECS cluster on AWS.
@@ -17,3 +18,4 @@ deploy {
   }
 }
 ```
+

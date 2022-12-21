@@ -1,3 +1,4 @@
+<!-- This file was generated via `make gen/integrations-hcl` -->
 ## aws-ecr (registry)
 
 Store a docker image within an Elastic Container Registry on AWS.
@@ -24,3 +25,4 @@ registry {
 
 - Input: **ecr.Image**
 - Output: **docker.Image**
+
