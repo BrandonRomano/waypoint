@@ -515,6 +515,23 @@ func (c *AppDocsCommand) hclFormat(name, ct string, doc *docs.Documentation) {
 			fmt.Fprintf(readme, "%s\n\n", c.humanize(dets.Description))
 		}
 
+		fmt.Fprintf(readme, "### Interface\n\n")
+
+		space := false
+		if dets.Input != "" {
+			fmt.Fprintf(readme, "- Input: **%s**\n", dets.Input)
+			space = true
+		}
+
+		if dets.Output != "" {
+			fmt.Fprintf(readme, "- Output: **%s**\n", dets.Output)
+			space = true
+		}
+
+		if space {
+			fmt.Fprintln(readme)
+		}
+
 		if dets.Example != "" {
 			fmt.Fprintf(readme, "### Examples\n\n```hcl\n%s\n```\n\n", strings.TrimSpace(dets.Example))
 		}
@@ -527,9 +544,8 @@ func (c *AppDocsCommand) hclFormat(name, ct string, doc *docs.Documentation) {
 				fmt.Fprintf(readme, "#### %s\n\n", m.Description)
 				fmt.Fprintf(readme, "- Input: **%s**\n", m.Input)
 				fmt.Fprintf(readme, "- Output: **%s**\n", m.Output)
+				fmt.Fprintln(readme)
 			}
-
-			fmt.Fprintln(readme)
 		}
 	}
 
