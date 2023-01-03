@@ -1,6 +1,4 @@
 <!-- This file was generated via `make gen/integrations-hcl` -->
-## vault (configsourcer)
-
 Read configuration values from Vault.
 
 ### Interface

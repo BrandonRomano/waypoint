@@ -1,6 +1,4 @@
 <!-- This file was generated via `make gen/integrations-hcl` -->
-## nomad-jobspec (platform)
-
 Deploy to a Nomad cluster from a pre-existing Nomad job specification file.
 
 This plugin lets you use any pre-existing Nomad job specification file to

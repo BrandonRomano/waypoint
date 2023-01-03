@@ -1,6 +1,4 @@
 <!-- This file was generated via `make gen/integrations-hcl` -->
-## kubernetes-apply (platform)
-
 Deploy Kubernetes resources directly from a single file or a directory of YAML
 or JSON files.
 
@@ -69,6 +67,10 @@ deploy {
     // build/registry, entrypoint env vars, etc.
     path        = templatedir("${path.app}/k8s")
     prune_label = "app=myapp"
+	prune_whitelist = [
+		"apps/v1/Deployment",
+		"apps/v1/ReplicaSet"
+  	]
   }
 }
 

@@ -509,7 +509,7 @@ func (c *AppDocsCommand) hclFormat(name, ct string, doc *docs.Documentation) {
 
 		fmt.Fprintln(readme, "<!-- This file was generated via `make gen/integrations-hcl` -->")
 
-		fmt.Fprintf(readme, "## %s (%s)\n\n", name, ct)
+		// fmt.Fprintf(readme, "## %s (%s)\n\n", name, ct)
 
 		if dets.Description != "" {
 			fmt.Fprintf(readme, "%s\n\n", c.humanize(dets.Description))

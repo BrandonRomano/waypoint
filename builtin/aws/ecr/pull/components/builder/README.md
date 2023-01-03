@@ -1,6 +1,4 @@
 <!-- This file was generated via `make gen/integrations-hcl` -->
-## aws-ecr-pull (builder)
-
 Use an existing, pre-built AWS ECR image.
 
 This builder attempts to find an image by repository and tag in the

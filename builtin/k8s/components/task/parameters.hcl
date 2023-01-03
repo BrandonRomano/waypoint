@@ -56,6 +56,13 @@ parameter {
 }
 
 parameter {
+  key         = "security_context"
+  description = ""
+  type        = "k8s.PodSecurityContext"
+  required    = true
+}
+
+parameter {
   key         = "service_account"
   description = "service account name to be added to the application pod\nservice account is the name of the Kubernetes service account to add to the pod. This is useful to apply Kubernetes RBAC to the application."
   type        = "string"

@@ -27,3 +27,10 @@ parameter {
   required    = true
 }
 
+parameter {
+  key         = "prune_whitelist"
+  description = ""
+  type        = "list of string"
+  required    = true
+}
+

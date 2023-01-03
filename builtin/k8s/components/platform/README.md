@@ -1,6 +1,4 @@
 <!-- This file was generated via `make gen/integrations-hcl` -->
-## kubernetes (platform)
-
 Deploy the application into a Kubernetes cluster using Deployment objects.
 
 ### Interface

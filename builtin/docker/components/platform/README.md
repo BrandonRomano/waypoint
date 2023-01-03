@@ -1,6 +1,4 @@
 <!-- This file was generated via `make gen/integrations-hcl` -->
-## docker (platform)
-
 Deploy a container to Docker, local or remote.
 
 ### Interface

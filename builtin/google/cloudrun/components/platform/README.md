@@ -1,6 +1,4 @@
 <!-- This file was generated via `make gen/integrations-hcl` -->
-## google-cloud-run (platform)
-
 Deploy a container to Google Cloud Run.
 
 ### Interface

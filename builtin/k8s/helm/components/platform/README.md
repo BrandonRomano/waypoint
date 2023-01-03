@@ -1,6 +1,4 @@
 <!-- This file was generated via `make gen/integrations-hcl` -->
-## helm (platform)
-
 Deploy to Kubernetes from a Helm chart. The Helm chart can be a local path
 or a chart in a repository.
 

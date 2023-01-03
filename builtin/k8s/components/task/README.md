@@ -1,6 +1,4 @@
 <!-- This file was generated via `make gen/integrations-hcl` -->
-## kubernetes (task)
-
 Launch a Kubernetes pod for on-demand tasks from the Waypoint server.
 
 This will use the standard Kubernetes environment variables to source

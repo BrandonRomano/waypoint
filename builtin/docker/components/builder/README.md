@@ -1,6 +1,4 @@
 <!-- This file was generated via `make gen/integrations-hcl` -->
-## docker (builder)
-
 Build a Docker image from a Dockerfile.
 
 If a Docker server is available (either locally or via environment variables

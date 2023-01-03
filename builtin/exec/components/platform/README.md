@@ -1,6 +1,4 @@
 <!-- This file was generated via `make gen/integrations-hcl` -->
-## exec (platform)
-
 Execute any command to perform a deploy.
 
 This plugin lets you use almost any pre-existing deployment tool for the

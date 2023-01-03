@@ -1,6 +1,4 @@
 <!-- This file was generated via `make gen/integrations-hcl` -->
-## aws-ecs (task)
-
 Launch an ECS task for on-demand tasks from the Waypoint server.
 
 This will use the standard AWS environment variables and IAM Role information to

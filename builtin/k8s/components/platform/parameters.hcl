@@ -298,6 +298,13 @@ parameter {
 }
 
 parameter {
+  key         = "pod.security_context.run_as_group"
+  description = ""
+  type        = "int64"
+  required    = true
+}
+
+parameter {
   key         = "pod.security_context.run_as_non_root"
   description = "indicates that the container must run as a non-root user"
   type        = "bool"

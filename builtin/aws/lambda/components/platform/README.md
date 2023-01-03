@@ -1,6 +1,4 @@
 <!-- This file was generated via `make gen/integrations-hcl` -->
-## aws-lambda (platform)
-
 Deploy functions as OCI Images to AWS Lambda.
 
 ### Interface

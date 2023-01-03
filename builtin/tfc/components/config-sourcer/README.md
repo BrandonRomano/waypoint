@@ -1,6 +1,4 @@
 <!-- This file was generated via `make gen/integrations-hcl` -->
-## terraform-cloud (configsourcer)
-
 Read Terraform state outputs from Terraform Cloud.
 
 ### Interface

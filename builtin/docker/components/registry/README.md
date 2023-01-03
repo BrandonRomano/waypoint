@@ -1,6 +1,4 @@
 <!-- This file was generated via `make gen/integrations-hcl` -->
-## docker (registry)
-
 Push a Docker image to a Docker compatible registry.
 
 ### Interface

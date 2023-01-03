@@ -1,6 +1,4 @@
 <!-- This file was generated via `make gen/integrations-hcl` -->
-## nomad-jobspec-canary (releasemanager)
-
 Promotes a Nomad canary deployment initiated by a Nomad jobspec deployment.
 
 If your Nomad deployment is configured to use canaries, this releaser plugin lets

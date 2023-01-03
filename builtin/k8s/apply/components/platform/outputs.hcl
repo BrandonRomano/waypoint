@@ -5,3 +5,9 @@ output {
   type        = "string"
 }
 
+output {
+  key         = "prune_whitelist"
+  description = ""
+  type        = "list of string"
+}
+

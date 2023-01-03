@@ -1,6 +1,4 @@
 <!-- This file was generated via `make gen/integrations-hcl` -->
-## docker (task)
-
 Launch a Docker container as a task.
 
 If a Docker server is available (either locally or via environment variables
