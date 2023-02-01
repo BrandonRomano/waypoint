@@ -12,6 +12,8 @@ on:
         required: false
 jobs:
   notify-release:
+    env:
+      ENVIRONMENT: "staging"
     runs-on: ubuntu-latest
     strategy:
       matrix:
